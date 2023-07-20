@@ -1,7 +1,7 @@
-describe('home page', () => {
+describe("home page", () => {
 
-  it('can visit the home page', () => {
-    cy.visit('/')
+  it("can visit the home page", () => {
+    cy.visit("/")
   })
 
   it("There is products on the page", () => {
